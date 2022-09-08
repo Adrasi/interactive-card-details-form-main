@@ -25,9 +25,9 @@
       <div class="form">
         <form name="form" action="/action_page.php"  method="post">
             <label for="Card holder">CARDHOLDER NAME</label><br>
-            <input type="text" name="cardholder" id="cardholder" placeholder=".e.g Jane Appleseed" required><br>
+            <input type="text" name="cardholder" id="cardholder" oninput="val2(this.value)" placeholder=".e.g Jane Appleseed" required><br>
             <label for="Card Number">CARD NUMBER</label><br>
-            <input type="text" name="card number" id="cardnumber" placeholder=".e.g 1234 5678 9123 0000" required><br> 
+            <input type="text" name="cardnumber" id="cardnumber" oninput="val(this.value)" placeholder=".e.g 1234 5678 9123 0000" required><br> 
             <label for="exp date">EXP.DATE(MM/YY)</label><br>
             <input type="text" name="exp.date" id="expdate" placeholder="MM" required>
             <input type="text" name="exp.date" id="expdate" placeholder="YY" required>
