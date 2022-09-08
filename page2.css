@@ -1,0 +1,145 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid red; */
+    font-size: 11px;
+    font-family: "Space Grotesk";
+}
+
+p{
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.main-container{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background:  hsl(278, 68%, 11%);
+    color: #ffffff;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    font-size: 15px;
+}
+
+.child-container{
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Space Grotesk";
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+}
+
+.img2 {
+    position: absolute;
+    top: 125;
+    left: 300px;
+    height: 180px;
+    /* border: 1px green solid; */
+}
+
+.img3{
+    height: 180px;
+    position: absolute;
+    top: 330;
+    left: 300px;
+    padding-left: 50px;
+}
+
+.empty-div{
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    top : 145px;
+    left: 320;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.empty-div2{
+    position: absolute;
+    text-align: center;
+    width: 17px;
+    height: 17px;
+    top : 158px;
+    left: 370;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.number-div{
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 350;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.name-div{
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 325;
+    margin-top: 113px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.number-div2{
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 560;
+    margin-top: 115px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.number{
+    position: absolute;
+    text-align: center;
+    top: 340px;
+    left: 615;
+    margin-right: 300px;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+@media  screen and (max-width: 768px) {
+    .main-container{
+        flex-direction: column;
+    }
+
+    .img1{
+        height: 375px;
+    }
+}
